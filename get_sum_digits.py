@@ -21,5 +21,5 @@ def get_sum_digits(num):
 
     # return sum of digits in integer
     return n1+n2+n3+n4+n5
-x=get_sum_digits(1234)
+x=get_sum_digits(1478)
 print(x)
