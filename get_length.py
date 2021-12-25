@@ -18,8 +18,9 @@ def get_length(num):
 
     #Returns:
         #int: length of integer
-    return (n1/n1)+(n2/n2)+(n3/n3)+(n4/n4)+(n5/n5)
+    s=(n1/n1)+(n2/n2)+(n3/n3)+(n4/n4)+(n5/n5)
+    return s
     # return number of digits in integer
     
-x=get_length(123)
+x=get_length(12345)
 print(x)
