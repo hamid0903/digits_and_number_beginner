@@ -1,15 +1,25 @@
 #get number of digits in an int?
 def get_length(num):
-    """
-    Get length of integer
+    n1=num%10
+    num//=10
 
-    Args:
-        num (int): integer to get length of
+    n2=num%10
+    num//=10
 
-    Returns:
-        int: length of integer
-    """
+    n3=num%10
+    num//=10
+
+    n4=num%10
+    n5=num//10
+    #Get length of integer
+    
+    #Args:
+    #    num (int): integer to get length of
+
+    #Returns:
+        #int: length of integer
+    return n1+n2+n3+n4+n5
     # return number of digits in integer
     return 
-
- 
+x=get_length(123)
+print(x)
